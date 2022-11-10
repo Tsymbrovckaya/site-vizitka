@@ -1,0 +1,72 @@
+@font-face {
+    src:url("../fonts/OpenSans-Regular.ttf");
+    font-family: "OpenSans Regular";
+}
+@font-face {
+    src:url("../fonts/OpenSans-Italic.ttf");
+    font-family: "OpenSans-Italic";
+
+}
+@font-face {
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-family: "OpenSans-Bold";
+}
+@font-face {
+    src: url("../fonts/NotoSerif-Bold.ttf");
+    font-family: "NotoSerif-Bold";
+}
+body{
+    background-color: #b1fff8;
+    margin: 0;
+}
+.fon-footer, .fon-header{
+    background-color: #9fe5df;
+    padding: 15px;
+
+}
+.photo{
+    border-width: 5px;
+    border-style: outset;
+    border-color: #4697ff;
+    padding: 5px;
+}
+.main-block{
+    width: 1000px;
+    margin: auto;
+}
+.fon-header ul{
+    margin: 0;
+    padding: 4px;
+}
+.fon-header ul li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+.fon-header{
+    border-bottom: 1px dashed black;
+}
+.fon-footer{
+    border-top: 1px dashed black;
+}
+
+ #obo-mne, #contactu, #hobbi, #obrazovanie, #kak-i-stala-razrobotchikom, #oput-rabotu{
+    border-left: 5px solid #2161a8;
+     padding-left:5px;
+     font-family: "NotoSerif-Bold", sans-serif;
+}
+
+ #fio span{
+     font-family: "Open Sans", sans-serif;
+
+ }
+ .fon-header ul{
+     display: flex;
+     justify-content: center;
+ }
+.grid-block{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
